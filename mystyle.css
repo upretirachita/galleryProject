@@ -1,0 +1,62 @@
+img{
+ 
+    max-height: 300px;
+    max-width: 300px;
+    padding-right: 25px;
+}
+
+body {
+    background-color:black;
+ }
+ .wrapper-info,.wrapper-photo
+ {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+ }
+.btnDelete {
+    background-color: #609;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    float:right;  
+    
+}
+.btn{
+    background-color: #609;
+    border: none;
+    margin-left: 65px;
+    color:#ffffff;
+    padding: 10px 25px;
+    display: block;
+}
+#over {
+        position: absolute;
+        width: 80%;
+        height: 80%;
+        top: 28px;   
+    
+}
+.divInfoz {
+    background-color: grey;
+    list-style: none;
+    padding-top: 60px;
+    padding-right:20px;
+    color:black;
+    z-index: 1;
+    position: absolute;
+    width: 800px;
+    height:800px;
+}
+#btnNext,#btnBack{
+    background-color: #609;
+    border: none;
+    margin-left: 65px;
+    color:#ffffff;
+    padding: 10px 25px;
+    margin-top: 140px;
+}
