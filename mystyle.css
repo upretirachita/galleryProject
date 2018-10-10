@@ -3,6 +3,7 @@ img{
     max-height: 300px;
     max-width: 300px;
     padding-right: 25px;
+    margin-left:15px;
 }
 
 body {
@@ -23,7 +24,8 @@ body {
     text-decoration: none;
     font-size: 16px;
     cursor: pointer;
-    float:right;  
+    float:right; 
+    margin-right:80px;  
     
 }
 .btn{
@@ -48,15 +50,28 @@ body {
     padding-right:20px;
     color:black;
     z-index: 1;
-    position: absolute;
-    width: 800px;
-    height:800px;
+    position: fixed;
+    width: 100%;
+    height: 100%;
 }
 #btnNext,#btnBack{
     background-color: #609;
     border: none;
-    margin-left: 65px;
     color:#ffffff;
     padding: 10px 25px;
-    margin-top: 140px;
+}
+#btnBack{
+    margin-left: 15px;
+}
+#btnNext {
+    float:right;
+    margin-right:80px;  
+}
+#divInfozWrapper{
+    height:450px;
+    font-style: italic;
+    margin-right:20px;
+}
+#divInfozWrapper li{
+        padding-top: 10px;
 }
