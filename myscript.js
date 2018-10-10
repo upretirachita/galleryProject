@@ -8,12 +8,12 @@ const displayGallery = () => {
   wrapperPhoto.innerHTML = '';
   wrapperInfo.innerHTML = '';
   array.forEach((element, index) => {
-    var divPhoto = document.createElement("div");
-    var firstName = document.createElement("span");
-    var test = document.createElement("div");
-    var btn = document.createElement("button");
+    let  divPhoto = document.createElement("div");
+    let firstName = document.createElement("span");
+    let test = document.createElement("div");
+    let btn = document.createElement("button");
     btn.setAttribute("class", "btn")
-    var pic = document.createElement("img");
+    let pic = document.createElement("img");
     console.log(firstName);
     btn.textContent = element.firstName;
     pic.setAttribute('src', './images/' + element.src);
